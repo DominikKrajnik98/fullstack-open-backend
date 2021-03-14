@@ -12,11 +12,11 @@ const number = process.argv[4]
 const url = process.env.MONGODB_URI
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
-        .catch()
+  .catch()
 
 const personSchema = new mongoose.Schema({
-    name : String, 
-    number : String,
+  name : String,
+  number : String,
 })
 
 const Person = mongoose.model('Person', personSchema)
