@@ -1,4 +1,4 @@
-DELETE http://localhost:3001/api/persons/6041125f434d2d408832869a
+DELETE http://localhost:3001/api/persons/604d3bdb05102729e06d8825
 
 ###
 GET  http://localhost:3001/api/persons
@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
     "name": "Jan Duda",
-    "number": "123456789"
+    "number": "12345678910"
 }
 
 ###
@@ -23,5 +23,5 @@ Content-Type: application/json
 
 {
     "name": "Jan Andrzej Duda",
-    "number": "1234567891011121314"
+    "number": "123123123111"
 }
